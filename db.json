@@ -1,11 +1,6 @@
 {
   "quotes": [
     {
-      "id": 1,
-      "quote": "The here and now is all we have, and if we play it right it's all we'll need.",
-      "author": "Ann Richards"
-    },
-    {
       "id": 2,
       "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
       "author": "Collin Powell"
@@ -51,15 +46,83 @@
       "author": "Sonia Sotomayor"
     },
     {
-      "quoteId": 2,
-      "id": 11
+      "quote": "DANCE PARTY",
+      "author": "Kelly",
+      "id": 12
+    },
+    {
+      "quote": "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.",
+      "author": "Ernest Hemingway",
+      "id": 14
     }
   ],
   "likes": [
     {
-      "id": 1,
-      "quoteId": 1,
-      "createdAt": 1558524356
+      "quoteId": 2,
+      "id": 1
+    },
+    {
+      "quoteId": 2,
+      "id": 2
+    },
+    {
+      "quoteId": 2,
+      "id": 3
+    },
+    {
+      "quoteId": 2,
+      "id": 4
+    },
+    {
+      "quoteId": 2,
+      "likes": 1,
+      "id": 5
+    },
+    {
+      "quoteId": 2,
+      "likes": 2,
+      "id": 6
+    },
+    {
+      "quoteId": 2,
+      "likes": 3,
+      "id": 7
+    },
+    {
+      "quoteId": 2,
+      "id": 8
+    },
+    {
+      "quoteId": 2,
+      "id": 9
+    },
+    {
+      "quoteId": 2,
+      "id": 10
+    },
+    {
+      "quoteId": 2,
+      "id": 11
+    },
+    {
+      "quoteId": 2,
+      "id": 12
+    },
+    {
+      "quoteId": 2,
+      "id": 13
+    },
+    {
+      "quoteId": 2,
+      "id": 14
+    },
+    {
+      "quoteId": 2,
+      "id": 15
+    },
+    {
+      "quoteId": 2,
+      "id": 16
     }
   ]
 }
