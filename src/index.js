@@ -35,7 +35,7 @@ const renderQuote = (data) => {
             <p class="quote">${data.quote}</p>
             <footer class="blockquote-footer">${data.author}</footer>
             <br>
-            <button data-id=${data.id} class='btn-success'>Likes: <span>0</span></button>
+            <button data-id=${data.id} class='btn-success'>Likes: <span>${data.likes.length}</span></button>
             <button data-id=${data.id} class='btn-danger'>Delete</button>
         </blockquote>
     </li>
@@ -78,12 +78,12 @@ const buttonFunctionality = () => {
             deleteQuote(quoteId)
         } 
         if (event.target.className === 'btn-success') {
-            const likesId = parseInt(event.target.dataset.id)
+            const newLike = parseInt(event.target.dataset.id)
             let likesNum = event.target.querySelector('span').textContent
             let likeSpan = event.target.querySelector('span')
             likesNum++
             likeSpan.textContent = likesNum
-            updateLikes(likesId)
+            updateLikes(newLike)
         }
     })
 };
@@ -95,14 +95,14 @@ const deleteQuote = (quoteId) => {
     })
 };
 
-const updateLikes = (likesId) => {
+const updateLikes = (newLike) => {
     fetch('http://localhost:3000/likes', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            quoteId: likesId,
+            quoteId: newLike,
         })
     })
 };
