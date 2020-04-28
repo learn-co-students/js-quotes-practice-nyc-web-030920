@@ -35,10 +35,10 @@ If you already have it installed, run the server by: `$ json-server --watch db.j
     </li>
   ```
 
-* Submitting the form creates a new quote and adds it to the list of quotes
+* √Submitting the form creates a new quote and adds it to the list of quotes
   without having to refresh the page. Pessimistic rendering is reccommended.
 
-* Clicking the delete button should delete the respective quote from the
+* √Clicking the delete button should delete the respective quote from the
   API and remove it from the page without having to refresh.
 
 * Clicking the like button will create a like for this particular quote in the
