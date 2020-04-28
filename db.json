@@ -51,7 +51,8 @@
       "author": "Sonia Sotomayor"
     },
     {
-      "quoteId": 2,
+      "quote": "another quote here!",
+      "author": "Rob Notwicz",
       "id": 11
     }
   ],
@@ -60,6 +61,72 @@
       "id": 1,
       "quoteId": 1,
       "createdAt": 1558524356
+    },
+    {
+      "quoteId": 1,
+      "id": 2
+    },
+    {
+      "quoteId": 1,
+      "id": 3
+    },
+    {
+      "quoteId": 2,
+      "id": 4
+    },
+    {
+      "quoteId": 2,
+      "id": 5
+    },
+    {
+      "quoteId": 2,
+      "id": 6
+    },
+    {
+      "quoteId": 10,
+      "id": 7
+    },
+    {
+      "quoteId": 9,
+      "id": 8
+    },
+    {
+      "quoteId": 9,
+      "id": 9
+    },
+    {
+      "quoteId": 9,
+      "id": 10
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1588103644890,
+      "id": 11
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1588103645037,
+      "id": 12
+    },
+    {
+      "quoteId": 3,
+      "createdAt": 1588103645159,
+      "id": 13
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1588103651925,
+      "id": 19
+    },
+    {
+      "quoteId": 9,
+      "createdAt": 1588103652088,
+      "id": 20
+    },
+    {
+      "quoteId": 7,
+      "createdAt": 1588104322813,
+      "id": 21
     }
   ]
 }
