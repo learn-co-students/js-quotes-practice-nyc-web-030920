@@ -49,10 +49,6 @@
       "id": 10,
       "quote": "You know, failure hurts. Any kind of failure stings. If you live in the sting, you will undoubtedly fail. My way of getting past the sting is to say no, I’m just not going to let this get me down.",
       "author": "Sonia Sotomayor"
-    },
-    {
-      "quoteId": 2,
-      "id": 11
     }
   ],
   "likes": [
@@ -60,6 +56,76 @@
       "id": 1,
       "quoteId": 1,
       "createdAt": 1558524356
+    },
+    {
+      "quoteId": "2",
+      "createdAt": 1588095941,
+      "id": 2
+    },
+    {
+      "quoteId": "3",
+      "createdAt": 1588095942,
+      "id": 3
+    },
+    {
+      "quoteId": "7",
+      "createdAt": 1588095944,
+      "id": 4
+    },
+    {
+      "quoteId": "8",
+      "createdAt": 1588095945,
+      "id": 5
+    },
+    {
+      "quoteId": "10",
+      "createdAt": 1588095946,
+      "id": 6
+    },
+    {
+      "quoteId": "10",
+      "createdAt": 1588095947,
+      "id": 7
+    },
+    {
+      "quoteId": "10",
+      "createdAt": 1588095947,
+      "id": 8
+    },
+    {
+      "quoteId": "3",
+      "createdAt": 1588096804,
+      "id": 9
+    },
+    {
+      "quoteId": "4",
+      "createdAt": 1588096806,
+      "id": 10
+    },
+    {
+      "quoteId": "9",
+      "createdAt": 1588096808,
+      "id": 11
+    },
+    {
+      "quoteId": "9",
+      "createdAt": 1588096808,
+      "id": 12
+    },
+    {
+      "quoteId": "9",
+      "createdAt": 1588096809,
+      "id": 13
+    },
+    {
+      "quoteId": "9",
+      "createdAt": 1588125340,
+      "id": 14
+    },
+    {
+      "quoteId": "1",
+      "createdAt": 1588125378,
+      "id": 15
     }
   ]
 }
